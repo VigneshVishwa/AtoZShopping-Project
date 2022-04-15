@@ -1,0 +1,12 @@
+package com.atozshopping.site;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MainController {
+	
+	@GetMapping("")
+	public String viewHomePage() {
+		return "index";
+	}
+}

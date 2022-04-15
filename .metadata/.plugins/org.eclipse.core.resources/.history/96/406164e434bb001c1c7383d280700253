@@ -1,0 +1,13 @@
+package com.atozshopping;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AtoZShoppingWebParentApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AtoZShoppingWebParentApplication.class, args);
+	}
+
+}
